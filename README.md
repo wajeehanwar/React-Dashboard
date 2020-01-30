@@ -1,68 +1,154 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">
+  <br>
+  <a href="https://raw.githubusercontent.com/wajeehanwar/Browser-Dashboard"><img src="https://raw.githubusercontent.com/wajeehanwar/React-Dashboard/master/images/main.png" alt="React Dashboard" width="400"></a>
+  <br>
+  React Dashboard
+  <br>
+</h1>
 
-## Available Scripts
+<h4 align="center">A responsive <a href="http://www.google.com" target="_blank">Google </a> search page clone that has been converted into a minimalist and personalized browser dashboard</h4>
+<p align="center">
+  <a href="https://raw.githubusercontent.com/wajeehanwar/React-Dashboard/master/images/badge.png">
+    <img src="https://raw.githubusercontent.com/wajeehanwar/React-Dashboard/master/images/badge.png" alt="resources" width=20% height=30%>
+  </a>
+</p>
 
-In the project directory, you can run:
+<p align="center">
+<a href="#view">View</a> •
+  <a href="#key-features">Key Features</a> •
+  <a href="#how-to-use">How To Use</a> •
+  <a href="#download">Download</a> •
+  <a href="#credits">Credits</a> •
+  <a href="#license">License</a>
+</p>
 
-### `npm start`
+## View
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+![screenshot](https://raw.githubusercontent.com/wajeehanwar/React-Dashboard/master/images/main.png)
+![screenshot](https://raw.githubusercontent.com/wajeehanwar/React-Dashboard/master/images/users.png)
+![screenshot](https://raw.githubusercontent.com/wajeehanwar/React-Dashboard/master/images/users.png)
+![screenshot](https://raw.githubusercontent.com/wajeehanwar/React-Dashboard/master/images/create-user.png)
+![screenshot](https://raw.githubusercontent.com/wajeehanwar/React-Dashboard/master/images/customize.png)
+![screenshot](https://raw.githubusercontent.com/wajeehanwar/React-Dashboard/master/images/todo.png)
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Key Features
 
-### `npm test`
+- Multiple locally stored user profiles for privacy.
+  - Create multiple user profiles.
+    - Validation for all user fields being filled.
+    - Validation preventing the creation of duplicate user profiles.
+  - View active profile.
+  - View all created user profiles.
+  - Set active user profile.
+  - Remove user profiles.
+  - Remove all locally stored users.
+- Display personalized greeting based on local time of day.
+- Perform [Google](http://www.google.com) search queries.
+- Display personalized message.
+  - Display rendomized motivational quotes
+  - Display country-based holiday wishes.
+  - Display birthday wish.
+- Change background wallpaper.
+- Integrated To Do task component.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* Create new task.
+* Mark task complete.
+* Mark task incomplete.
+* Delete task.
 
-### `npm run build`
+- Cross platform
+  - Windows, macOS, Linux and mobile ready.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## How To Use
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+To clone and run this application, you'll need [Git](https://git-scm.com) and a browser installed on your device. From your command line:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+# Clone this repository
+$ git clone https://github.com//wajeehanwar/React-Dashboard
+# Go into the repository
+$ cd React-Dashboard
 
-### `npm run eject`
+# Open webpage
+$ index.html
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+To create user profiles:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Select settings icon in top-right corner.
+- Select _Add New User_ option.
+- Provide the following personal information:
+  - First name
+  - Last name
+  - Country
+  - Birth day and month
+- Select _Create_ option.
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+To set active user profile:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- Select settings icon in top-right corner.
+- Select _Activate_ option to the right of the intended user listing.
 
-## Learn More
+To delete user profile:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Select settings icon in top-right corner.
+- Select _Delete_ option to the right of the intended user listing.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+To clear all locally stored users:
 
-### Code Splitting
+- Select settings icon in top-right corner.
+- Select _Reset Users_ option.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+To customize user wallpaper:
 
-### Analyzing the Bundle Size
+- Select settings icon in top-right corner.
+- Select _Customize_ option to the right of the active user listing.
+- Select preferred wallpaper from _wallpaper options_
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+To view _To Do_ task list:
 
-### Making a Progressive Web App
+- Select _To Do_ icon in top-right corner.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+To create _To Do_ task item:
 
-### Advanced Configuration
+- Select _To Do_ icon in top-right corner.
+- Select the input _text-field_ located under the _To Do_ title.
+- Enter the new task name.
+- select the _+_ icon.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+To mark a _To Do_ task item as competed:
 
-### Deployment
+- Select _To Do_ icon in top-right corner.
+- Select the green checkmark icon located to the right of the task listing.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+To mark a _To Do_ task item as incompeted:
 
-### `npm run build` fails to minify
+- Select _To Do_ icon in top-right corner.
+- Select the gray checkmark icon located to the right of the task listing.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+To delete a _To Do_ task item:
+
+- Select _To Do_ icon in top-right corner.
+- Select the red _X_ icon located to the left of the task listing.
+
+## Download
+
+You can [download](https://github.com//wajeehanwar/React-Dashboard) here.
+
+## Credits
+
+This software was developed using the following:
+
+- HTML5
+- CSS3
+- Javascript
+  - React.js Framework
+    -react-router-dom
+
+## License
+
+MIT
+
+---
+
+> GitHub [@wajeehanwar](https://github.com/wajeehanwar)
