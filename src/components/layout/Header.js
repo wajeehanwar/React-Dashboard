@@ -11,9 +11,11 @@ export default function Header() {
           id='home-button'
           to='/'
         >
-          ⌂<span className='tooltip-home'>Home</span>
+          <div className='icon-home'></div>
+          <span className='tooltip-home'>Home</span>
         </Link>
       </span>
+
       <span>
         <Link
           style={removeTextDecoration}
@@ -21,10 +23,11 @@ export default function Header() {
           id='todos-button'
           to='/todos'
         >
-          &#x2611;
+          <div className='icon-todo'></div>
           <span className='tooltip-header-todo'>To Do</span>
         </Link>
       </span>
+
       <span>
         <Link
           style={removeTextDecoration}
@@ -32,7 +35,7 @@ export default function Header() {
           id='settings-button'
           to='/settings'
         >
-          &#9881;
+          <div className='icon-settings'></div>
           <span className='tooltip-header-settings'>Settings</span>
         </Link>
       </span>

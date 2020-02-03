@@ -23,7 +23,6 @@ export class AddTodo extends Component {
             className='new-todo'
             type='text'
             name='title'
-            placeholder='&#x2611;'
             value={this.state.title}
             onChange={this.onChange}
           />

@@ -16,7 +16,7 @@ export class ActiveUser extends Component {
               type='submit'
               value='&#9881;'
             >
-              &#9881;
+              <div className='icon-customize'></div>
               <span className='tooltip-customize'>Customize</span>
             </button>
           </Link>

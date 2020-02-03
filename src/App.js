@@ -26,10 +26,16 @@ export class App extends Component {
   };
 
   componentDidMount = () => {
+    // Set page title
     document.title = "Dashboard";
+
+    // Get previously stored state
     if (localStorage.getItem("users") !== null) {
       this.setState({ users: JSON.parse(localStorage.getItem("users")) });
     }
+
+    // Set searchbar as focus point
+    document.getElementById("search-bar").focus();
   };
 
   //
@@ -98,7 +104,7 @@ export class App extends Component {
 
   resetAllUsers = () => {
     localStorage.clear();
-    window.location.reload();
+    window.location.pathname = "/";
   };
 
   setBackgroundImage = background => {
