@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/react-dashboard/static/css/main.981ab5df.chunk.css",
-    "main.js": "/react-dashboard/static/js/main.4dcaa1b4.chunk.js",
-    "main.js.map": "/react-dashboard/static/js/main.4dcaa1b4.chunk.js.map",
+    "main.js": "/react-dashboard/static/js/main.85079754.chunk.js",
+    "main.js.map": "/react-dashboard/static/js/main.85079754.chunk.js.map",
     "runtime-main.js": "/react-dashboard/static/js/runtime-main.51bc6bee.js",
     "runtime-main.js.map": "/react-dashboard/static/js/runtime-main.51bc6bee.js.map",
     "static/js/2.cb9959a2.chunk.js": "/react-dashboard/static/js/2.cb9959a2.chunk.js",
     "static/js/2.cb9959a2.chunk.js.map": "/react-dashboard/static/js/2.cb9959a2.chunk.js.map",
     "index.html": "/react-dashboard/index.html",
-    "precache-manifest.89a89528d4bd9e0878770b71c6282782.js": "/react-dashboard/precache-manifest.89a89528d4bd9e0878770b71c6282782.js",
+    "precache-manifest.bc5c1a7e4e9db0a215960f1d26d0d2f8.js": "/react-dashboard/precache-manifest.bc5c1a7e4e9db0a215960f1d26d0d2f8.js",
     "service-worker.js": "/react-dashboard/service-worker.js",
     "static/css/main.981ab5df.chunk.css.map": "/react-dashboard/static/css/main.981ab5df.chunk.css.map",
     "static/js/2.cb9959a2.chunk.js.LICENSE": "/react-dashboard/static/js/2.cb9959a2.chunk.js.LICENSE",
@@ -29,6 +29,6 @@
     "static/js/runtime-main.51bc6bee.js",
     "static/js/2.cb9959a2.chunk.js",
     "static/css/main.981ab5df.chunk.css",
-    "static/js/main.4dcaa1b4.chunk.js"
+    "static/js/main.85079754.chunk.js"
   ]
 }
