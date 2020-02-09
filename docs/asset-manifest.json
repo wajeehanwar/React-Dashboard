@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/react-dashboard/static/css/main.981ab5df.chunk.css",
+    "main.js": "/react-dashboard/static/js/main.85079754.chunk.js",
+    "main.js.map": "/react-dashboard/static/js/main.85079754.chunk.js.map",
+    "runtime-main.js": "/react-dashboard/static/js/runtime-main.51bc6bee.js",
+    "runtime-main.js.map": "/react-dashboard/static/js/runtime-main.51bc6bee.js.map",
+    "static/js/2.cb9959a2.chunk.js": "/react-dashboard/static/js/2.cb9959a2.chunk.js",
+    "static/js/2.cb9959a2.chunk.js.map": "/react-dashboard/static/js/2.cb9959a2.chunk.js.map",
+    "index.html": "/react-dashboard/index.html",
+    "precache-manifest.bc5c1a7e4e9db0a215960f1d26d0d2f8.js": "/react-dashboard/precache-manifest.bc5c1a7e4e9db0a215960f1d26d0d2f8.js",
+    "service-worker.js": "/react-dashboard/service-worker.js",
+    "static/css/main.981ab5df.chunk.css.map": "/react-dashboard/static/css/main.981ab5df.chunk.css.map",
+    "static/js/2.cb9959a2.chunk.js.LICENSE": "/react-dashboard/static/js/2.cb9959a2.chunk.js.LICENSE",
+    "static/media/bg_1.jpg": "/react-dashboard/static/media/bg_1.ec3b8eac.jpg",
+    "static/media/bg_1_thumb.jpg": "/react-dashboard/static/media/bg_1_thumb.f7625e3c.jpg",
+    "static/media/bg_2.jpg": "/react-dashboard/static/media/bg_2.a6753a4e.jpg",
+    "static/media/bg_2_thumb.jpg": "/react-dashboard/static/media/bg_2_thumb.65973e5f.jpg",
+    "static/media/bg_3.jpg": "/react-dashboard/static/media/bg_3.cfb2493c.jpg",
+    "static/media/bg_3_thumb.jpg": "/react-dashboard/static/media/bg_3_thumb.e5e88cd6.jpg",
+    "static/media/bg_4.png": "/react-dashboard/static/media/bg_4.9b635626.png",
+    "static/media/bg_4_thumb.png": "/react-dashboard/static/media/bg_4_thumb.4300339b.png",
+    "static/media/bg_5.png": "/react-dashboard/static/media/bg_5.b9643395.png",
+    "static/media/bg_5_thumb.png": "/react-dashboard/static/media/bg_5_thumb.4e49be4d.png",
+    "static/media/bg_6.png": "/react-dashboard/static/media/bg_6.eef391c4.png",
+    "static/media/bg_6_thumb.png": "/react-dashboard/static/media/bg_6_thumb.22206c35.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.51bc6bee.js",
+    "static/js/2.cb9959a2.chunk.js",
+    "static/css/main.981ab5df.chunk.css",
+    "static/js/main.85079754.chunk.js"
+  ]
+}
