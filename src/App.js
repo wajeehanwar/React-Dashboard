@@ -1,5 +1,12 @@
-import React, { Component } from "react";
-import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
+import React, {
+  Component
+} from "react";
+import {
+  BrowserRouter,
+  Route,
+  Switch,
+  Redirect
+} from "react-router-dom";
 import "./App.css";
 import Header from "./components/layout/Header";
 import Settings from "./components/settings/Settings";
@@ -10,19 +17,17 @@ const backgroundImages = require.context("./images", true);
 
 export class App extends Component {
   state = {
-    users: [
-      {
-        id: "0",
-        firstName: "",
-        lastName: "",
-        dobDay: 0,
-        dobMonth: 0,
-        country: "USA",
-        todos: [],
-        background: "bg_2.jpg",
-        active: true
-      }
-    ]
+    users: [{
+      id: "0",
+      firstName: "",
+      lastName: "",
+      dobDay: 0,
+      dobMonth: 0,
+      country: "USA",
+      todos: [],
+      background: "bg_2.jpg",
+      active: true
+    }]
   };
 
   componentDidMount = () => {
@@ -31,7 +36,9 @@ export class App extends Component {
 
     // Get previously stored state
     if (localStorage.getItem("users") !== null) {
-      this.setState({ users: JSON.parse(localStorage.getItem("users")) });
+      this.setState({
+        users: JSON.parse(localStorage.getItem("users"))
+      });
     }
 
     // Set searchbar as focus point
@@ -99,7 +106,9 @@ export class App extends Component {
     };
 
     this.deactivateActiveUser();
-    this.setState({ users: [...this.state.users, newUser] });
+    this.setState({
+      users: [...this.state.users, newUser]
+    });
   };
 
   resetAllUsers = () => {
@@ -201,53 +210,93 @@ export class App extends Component {
   };
   render() {
     this.refreshBackgroundImage();
-    return (
-      <div className='App'>
-        <div id='overlay'></div>
-        <BrowserRouter>
-          <div className='container'>
-            <Header />
-            <Switch>
-              <Route exact path='/'>
-                <div>
-                  <Home
-                    getActiveUser={this.getActiveUser}
-                    getCurrentHour={this.getCurrentHour}
-                    getCurrentDay={this.getCurrentDay}
-                    getCurrentMonth={this.getCurrentMonth}
-                  />
-                </div>
-              </Route>
-              {/* Router */}
-              <Route path='/settings'>
-                <div>
-                  <Settings
-                    users={this.state.users}
-                    activeUser={this.getActiveUser}
-                    addNewUser={this.addNewUser}
-                    activateUser={this.activateUser}
-                    deleteUser={this.deleteUser}
-                    resetAllUsers={this.resetAllUsers}
-                    setBackgroundImage={this.setBackgroundImage}
-                  />
-                </div>
-              </Route>
-              {/* Router */}
-              <Route>
-                <div>
-                  <Todos
-                    activeUser={this.getActiveUser}
-                    addTodo={this.addTodo}
-                    removeTodo={this.removeTodo}
-                    todoCompleted={this.todoCompleted}
-                  />
-                </div>
-              </Route>
-              <Redirect exact from='/*' to='/' />
-            </Switch>
-          </div>
-        </BrowserRouter>
-      </div>
+    return ( <
+      div className = 'App' >
+      <
+      div id = 'overlay' > < /div> <
+      BrowserRouter basename = "/React-Dashboard" >
+      <
+      div className = 'container' >
+      <
+      Header / >
+      <
+      Switch >
+      <
+      Route exact path = '/' >
+      <
+      div >
+      <
+      Home getActiveUser = {
+        this.getActiveUser
+      }
+      getCurrentHour = {
+        this.getCurrentHour
+      }
+      getCurrentDay = {
+        this.getCurrentDay
+      }
+      getCurrentMonth = {
+        this.getCurrentMonth
+      }
+      /> <
+      /div> <
+      /Route> {
+        /* Router */ } <
+      Route path = '/settings' >
+      <
+      div >
+      <
+      Settings users = {
+        this.state.users
+      }
+      activeUser = {
+        this.getActiveUser
+      }
+      addNewUser = {
+        this.addNewUser
+      }
+      activateUser = {
+        this.activateUser
+      }
+      deleteUser = {
+        this.deleteUser
+      }
+      resetAllUsers = {
+        this.resetAllUsers
+      }
+      setBackgroundImage = {
+        this.setBackgroundImage
+      }
+      /> <
+      /div> <
+      /Route> {
+        /* Router */ } <
+      Route >
+      <
+      div >
+      <
+      Todos activeUser = {
+        this.getActiveUser
+      }
+      addTodo = {
+        this.addTodo
+      }
+      removeTodo = {
+        this.removeTodo
+      }
+      todoCompleted = {
+        this.todoCompleted
+      }
+      /> <
+      /div> <
+      /Route> <
+      Redirect exact from = '/*'
+      to = '/' / >
+      <
+      /Switch> <
+      /div> <
+      /BrowserRouter> <
+      /div>
     );
   }
 }
